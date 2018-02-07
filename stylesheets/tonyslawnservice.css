@@ -1,0 +1,236 @@
+body {
+  background-color: #888600;
+  background-image: url(../images/grass.jpg);
+  color: #092677;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+  height: 134px;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+h1 {
+  background-image: url(../images/tls_logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Verdana, Arial, sans-serif;
+  height: 148px;
+  text-indent: -9999px;
+}
+
+h2 {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+main {
+  display: block;
+  margin-left: 180px;
+  padding-left: 10px;
+}
+
+main h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+main h4 {
+  font-family: Verdana, Arial, sans-serif;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+main section {
+  text-align: right;
+  padding-right: 2px;
+}
+
+main ul {
+  margin-top: 2px;
+}
+
+nav {
+  background-color: #D8D500;
+  float: left;
+  padding: 0;
+  width: 180px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 17px;
+  margin-bottom: 2px;
+  text-align: left;
+  width: 120px;
+}
+
+footer {
+  background-color: #D8D500;
+  color: #000000;
+  font-size: .80em;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a:link {
+  color: #3B5CB6;
+}
+
+nav a:visited {
+  color: #051C5B;
+}
+
+nav a:hover, nav a:focus {
+  color: #008E00;
+}
+
+footer a:link {
+  color: #3B5CB6;
+}
+
+footer a:visited {
+  color: #051C5B;
+}
+
+footer a:hover, footer a:focus {
+  color: #008E00;
+}
+
+label {
+  display: block;
+  float: left;
+  padding-right: 6px;
+  text-align: right;
+  width: 120px;
+}
+
+input[type=email],
+input[type=submit],
+input[type=text],
+input[type=textarea] {
+  display: block;
+  margin-bottom: 15px;
+}
+
+input[type=submit] {
+  margin-left: 125px;
+  margin-top: 5px;
+}
+
+input[type=textarea] {
+ float: left;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: inline;
+}
+
+#interest{
+  float: left;
+  margin-bottom: 5px;
+}
+
+#wrapper {
+  background-color: #03D103;
+  box-shadow: 7px 7px 0 #006D00;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2048px;
+  min-width: 960px;
+  width: 80%;
+}
+
+#arrow {
+  background-image: url(../images/arrow.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+}
+
+@media only screen and (max-width: 64em) {
+  body {
+    background-color: #888600;
+    background-image: url(../images/grass.jpg);
+    margin: 0;
+  }
+  
+  main {
+    display: block;
+    margin-left: 0;
+    padding-left: 10px;
+  }
+  
+  nav li {
+    display: inline;
+    font-size: 120%;
+    margin: 5%;
+    padding: 0.5%;
+    width: 80px;
+  }
+  
+  nav {
+    float: none;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    width: auto;
+  }
+  
+  h1 {
+    background-image: url(../images/tls_logo.jpg);
+    background-position: center;
+    height: 148px;
+    text-indent: -9999px;
+  }
+  
+  #wrapper {
+    box-shadow: none;
+    min-width: 0;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  nav li {
+    background-color: #FFFC04;
+    box-shadow: 2px 2px 0 #006D00;
+    display: inline-block;
+    font-size: 120%;
+    margin: 1%;
+    padding: 0.5%;
+    text-align: center;
+    width: 120px;
+  }
+  
+  h1 {
+    background-image: url(../images/tls_logo_mobile.jpg);
+    background-position: center;
+    height: 148px;
+    width: 324px;
+    text-indent: -9999px;
+  }
+  
+  nav a {
+    display: block;
+  }
+  
+  .mobile {
+    display: inline;
+  }
+
+  .desktop {
+    display: none;
+  }
+}

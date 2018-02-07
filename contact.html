@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Tony's Lawn Service - Contact</title>
+    <link rel="stylesheet" href="stylesheets/tonyslawnservice.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif-->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Tony's Lawn Service - Contact</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <main>
+        <section>
+          <form action="mailto:tony@tonyslawnservice.us" method="post">
+            <select size="1" name="interest" id="interest">
+              <option>Select a Service Option</option>
+              <option value="Lawn Service">Lawn Service</option>
+              <option value="Fertilizer and Weed Control">Fertilizer and Weed Control</option>
+              <option value="Landscaping">Landscaping</option>
+              <option value="Snow Removal">Snow Removal</option>
+              <option value="Other">Other</option>
+            </select>
+
+            <label for="firstName">*First Name:</label>
+            <input required placeholder="First Name" type="text" name="firstName" id="firstName">
+
+            <label for="lastName">*Last Name:</label>
+            <input required placeholder="Last Name" type="text" name="lastName" id="lastName">
+
+            <label for="myEmail">*Email:</label>
+            <input required placeholder="example@example.com" type="email" name="myEmail" id="myEmail">
+
+            <label for="myAddress">*Address:</label>
+            <input required placeholder="Street, City, State, Zip" type="text" name="myDate" id="myAddress">
+            
+            <label for="myComment">Comments:</label>
+            <textarea id="myComment" placeholder="Your comment here" name="myComment" rows="3" cols="25"></textarea>
+            <input type="submit" value="Submit Request">
+            
+          </form>
+        </section>
+      </main>
+      <footer>
+        <small>Copyright &copy; Tony's Lawn Service</small><br>
+        <small><a href="mailto:tony@tonyslawnservice.us">tony@tonyslawnservice.us</a></small>
+      </footer>
+    </div>
+  </body>
+</html>
